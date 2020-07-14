@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AdaptiveTextView">
+
+        <attr name="operateType" format="integer">
+            <enum name="changeLines" value="1"/>
+            <enum name="changeLineHeight" value="2" />
+            <enum name="changeLinesAndHeight" value="3"/>
+        </attr>
+        <attr name="lineSpaceLowerLimit" format="dimension" />
+        <attr name="lineNumLowerLimit" format="integer" />
+
+    </declare-styleable>
+</resources>

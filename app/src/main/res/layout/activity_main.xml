@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,12 +7,48 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/main_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="@android:color/holo_green_dark"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:lineSpacingExtra="-6dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="♠♣♧♡♥❤❥❣♂♀✲☀☼☾☽◐◑☺☻☎☏✿❀№↑↓←→√×÷★℃℉°◆◇⊙■□△▽¿½☯✡↑↓卍卐♂♀✚〓㎡♪♫♩♬㊚㊛囍㊒㊖Φ↑↓♀♂‖$@*#※卍卐Ψ♫♬♭♩♪♯♮⌒¶∮‖八月胡蝶来，双飞西园草。感此伤妾心，坐愁红颜老。早晚下三巴，预将书报家。相迎不道远，直至长风沙。"
+        android:textSize="23sp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+<!--    <TextView-->
+<!--        android:id="@+id/main_text"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80sp"-->
+<!--        android:background="@android:color/holo_green_dark"-->
+<!--        android:ellipsize="end"-->
+<!--        android:gravity="left|center_vertical"-->
+<!--        android:includeFontPadding="false"-->
+<!--        android:maxLines="3"-->
+<!--        android:text="妾发初覆额，折花门前剧。郎骑竹马来，绕床弄青梅。同居长干里，两小无嫌猜，十四为君妇，羞颜未尝开。低头向暗壁，千唤不一回。十五始展眉，愿同尘与灰。常存抱柱信，岂上望夫台。十六君远行，瞿塘滟滪堆。五月不可触，猿声天上哀。门前迟行迹，一一生绿苔。苔深不能扫，落叶秋风早。八月胡蝶来，双飞西园草。感此伤妾心，坐愁红颜老。早晚下三巴，预将书报家。相迎不道远，直至长风沙。"-->
+<!--        android:textSize="23sp" />-->
+
+<!--    <View-->
+<!--        android:layout_marginTop="91px"-->
+<!--        android:id="@+id/accentLine"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:background="@android:color/holo_blue_bright"-->
+<!--        android:layout_height="1px"/>-->
+<!--    <View-->
+<!--        android:id="@+id/baseLine"-->
+<!--        android:layout_marginTop="163px"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:background="@android:color/holo_purple"-->
+<!--        android:layout_height="1px"/>-->
+<!--    <View-->
+<!--        android:layout_marginTop="182px"-->
+<!--        android:id="@+id/descentLine"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:background="@android:color/holo_orange_dark"-->
+<!--        android:layout_height="1px"/>-->
+<!--♠♣♧♡♥❤❥❣♂♀✲☀☼☾☽◐◑☺☻☎☏✿❀№↑↓←→√×÷★℃℉°◆◇⊙■□△▽¿½☯✡↑↓卍卐♂♀✚〓㎡♪♫♩♬㊚㊛囍㊒㊖Φ↑↓♀♂‖$@*#※卍卐Ψ♫♬♭♩♪♯♮⌒¶∮‖€￡¥$§发现zh-Hans字段代表中文简体的字体，zh-Hant字段代表中文繁体的字体，目前我们需要将其中的字体NotoSansSC-Regular.otf替换成想要的字体。-->
+
+</RelativeLayout>

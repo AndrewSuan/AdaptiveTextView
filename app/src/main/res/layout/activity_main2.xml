@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <com.example.myapplication.AdaptiveTextView
+        android:id="@+id/series_variety_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="@android:color/holo_green_dark"
+        android:ellipsize="end"
+        android:gravity="left|center_vertical"
+        android:includeFontPadding="false"
+        app:operateType="changeLinesAndHeight"
+        android:maxLines="3"
+        android:text="加字g体库1从该xml中发现zh-额发顺丰阿瑟飞洒发的是高尚的现代风格对中国的认识是个加字体库1从该xml中发现zh-额发顺丰阿瑟飞洒发的是高尚的现代风格对中国的认识是个加字体库1从该xml中发现zh-额发顺丰阿瑟飞洒发的是高尚的现代风格对中国的认识是个"
+        android:textSize="23sp" />
+
+</RelativeLayout>
