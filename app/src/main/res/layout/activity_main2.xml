@@ -19,4 +19,11 @@
         android:text="加字g体库1从该xml中发现zh-额发顺丰阿瑟飞洒发的是高尚的现代风格对中国的认识是个加字体库1从该xml中发现zh-额发顺丰阿瑟飞洒发的是高尚的现代风格对中国的认识是个加字体库1从该xml中发现zh-额发顺丰阿瑟飞洒发的是高尚的现代风格对中国的认识是个"
         android:textSize="23sp" />
 
+    <Button
+        android:id="@+id/reduce_textview_height_bt"
+        android:text="减少TextView的高度"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
 </RelativeLayout>

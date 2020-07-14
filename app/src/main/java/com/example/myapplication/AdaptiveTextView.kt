@@ -85,6 +85,9 @@ class AdaptiveTextView(context: Context, attrs: AttributeSet?, defStyleAttr: Int
                 adjustTextViewLineSpace(this, mLineSpaceLowerLimit_PX)
             }
             TEXTVIEW_CHANGE_LINES_AND_LINEHEIGHT -> {
+                if (!isNeedAjust(this)){
+                    return
+                }
                 var boolean = adjustTextViewLineSpace(this, mLineSpaceLowerLimit_PX)
                 Log.d("MainActivity","boolean:$boolean")
                 if (boolean) {
